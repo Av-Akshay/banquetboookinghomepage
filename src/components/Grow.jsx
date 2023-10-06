@@ -22,7 +22,7 @@ const Grow = () => {
           </div>
         </div>
         <div>
-          <img src={Growth} alt="Growing-img" />
+          <img className="Growth_img" src={Growth} alt="Growing-img" />
         </div>
       </div>
     </div>

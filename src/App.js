@@ -7,6 +7,7 @@ import Banquets from "./components/Banquets";
 import FindAndEnjoyBanquet from "./components/FindAndEnjoyBanquet";
 import Grow from "./components/Grow";
 import Offers from "./components/Offers";
+import Fotter from "./components/Fotter";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FindAndEnjoyBanquet />
       <Grow />
       <Offers />
+      <Fotter />
     </>
   );
 }

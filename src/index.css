@@ -206,7 +206,7 @@ select {
   background-color: #fff;
   bottom: 0;
   right: 0;
-  width: 82%;
+  width: 75%;
 }
 .sub_card_heading {
   text-align: center;
@@ -275,7 +275,10 @@ select {
   background-position: center;
   margin-bottom: 5rem;
 }
-
+.Growth_img {
+  width: 40rem;
+  height: 40rem;
+}
 .banquet_growth {
   width: 90%;
   margin: auto;
@@ -356,4 +359,279 @@ select {
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
+}
+/*======================== footer componennts================== */
+footer {
+  background-color: #fdfd96;
+  padding-top: 5rem;
+}
+.footer_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+}
+.footer_about p {
+  font-size: 1.5rem;
+}
+.footer_about img {
+  width: 18rem;
+}
+.container {
+  gap: 1rem;
+  height: 20vh;
+  display: grid;
+  width: 95%;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer_links {
+  border-left: 0.1rem solid black;
+  padding: 1rem 0rem 0rem 1rem;
+}
+.footer_links ul {
+  font-size: 1.2rem;
+  list-style-type: none;
+  line-height: 1.8rem;
+}
+.footer_conditions {
+  border-left: 0.1rem solid black;
+  padding: 1rem 0rem 0rem 1rem;
+}
+.footer_conditions ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.footer_submit {
+  border-left: 0.1rem solid black;
+  padding: 1rem 0rem 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+form input {
+  padding: 0.5rem 1rem;
+}
+.submit {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(241, 8, 8);
+}
+.footer_bottom_section {
+  background-color: #ffd700;
+  padding: 0.8rem 0;
+}
+.footer_bottom_section p {
+  text-align: center;
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 56.25%;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .head {
+    gap: 36vw;
+  }
+  .menu {
+    width: 98%;
+  }
+  .banquet-logo {
+    width: 25rem;
+  }
+  .simple_steps {
+    width: 90%;
+  }
+  .our_top_banquets {
+    width: 90%;
+  }
+}
+
+@media (max-width: 780px) {
+  html {
+    font-size: 50%;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .nav {
+    width: 95%;
+  }
+  .Call-Working {
+    gap: 0.2rem;
+  }
+  .about_banquet img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .common-style-nav {
+    gap: 0.2rem;
+  }
+  .select-cities {
+    flex-wrap: wrap;
+  }
+  .our_top_banquets {
+    width: 95%;
+  }
+  .rating {
+    margin: 0.5rem;
+  }
+  .Steps {
+    width: 90%;
+  }
+  .item1 img {
+    width: 35rem;
+  }
+  .simple_steps {
+    width: 100%;
+  }
+  .offers h1::after {
+    left: 30%;
+  }
+}
+@media (max-width: 580px) {
+  html {
+    font-size: 43.75%;
+  }
+  .head {
+    gap: 20vw;
+  }
+  .banquet-logo {
+    width: 18rem;
+  }
+}
+@media (max-width: 500px) {
+  form input {
+    padding: 0.5rem 0.8rem;
+    width: 20rem;
+  }
+  .banquet-logo {
+    width: 16rem;
+  }
+  .about_banquet img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .search-cities {
+    width: 20rem;
+  }
+  .offers {
+    width: 98%;
+  }
+  .our_top_banquets {
+    width: 98%;
+  }
+
+  .banquets_card {
+    gap: 1rem;
+  }
+  .rating {
+    margin: 0.5rem;
+  }
+  .sub_card {
+    padding: 0.8rem;
+    width: 66%;
+  }
+  .banquet_growth {
+    width: 96%;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 37.5%;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .head {
+    gap: 15vw;
+  }
+  .banquet-logo {
+    width: 12rem;
+  }
+  .common-style-nav img {
+    width: 3rem;
+  }
+  .banquet_info {
+    width: 90%;
+  }
+  .Steps {
+    width: 95%;
+  }
+  .item1 img {
+    width: 25rem;
+  }
+  .Growth_img {
+    width: 30rem;
+    height: 30rem;
+  }
+  .offers_for_you {
+    gap: 1.8rem;
+  }
+  .first_offer_comp {
+    padding: 3rem;
+  }
+  .common_offer_card {
+    padding: 1rem;
+  }
+  .container {
+    width: 98%;
+  }
+  form input {
+    padding: 0.5rem 0.8rem;
+    width: 15rem;
+  }
+  .footer_about {
+    padding: 0.2rem;
+  }
+  .footer_links {
+    padding: 0.2rem 0rem 0rem 0.2rem;
+  }
+  .footer_conditions {
+    padding: 0.2rem 0rem 0rem 0.2rem;
+  }
+  .footer_submit {
+    padding: 0.2rem 0rem 0rem 0.2rem;
+  }
+}
+@media (max-width: 300px) {
+  .banquet-logo {
+    width: 10rem;
+  }
+  .Steps {
+    width: 98%;
+  }
+  .item1 img {
+    width: 18rem;
+  }
+  .Growth_img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .rating {
+    margin: 0;
+  }
+  .sub_card {
+    padding: 0.2rem;
+    width: 61%;
+  }
+  .offers_for_you {
+    width: 95%;
+  }
+  .offer_card img {
+    width: 6rem;
+  }
+  .footer_about img {
+    width: 12rem;
+  }
 }

@@ -14,6 +14,8 @@ import Enjoy from "./assest/Enjoy-Your-Moment-1.png";
 import EnjoyIcon from "./assest/Enjoy-your-moments-icon.png";
 import Growth from "./assest/Img.png";
 import OfferImg from "./assest/offers-icon.png";
+import BanquetBooking from "./assest/BanquetBooking-Logo.png";
+import Download from "./assest/Download.png";
 
 export {
   Banquet1,
@@ -29,6 +31,8 @@ export {
   Booking,
   OfferImg,
   BookingIcon,
+  Download,
+  BanquetBooking,
   Enjoy,
   EnjoyIcon,
   Growth,
