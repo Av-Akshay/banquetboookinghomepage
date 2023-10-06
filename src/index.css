@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+p {
+  font-size: 1.8rem;
+}
 html {
   font-size: 62.5%;
 }
@@ -223,4 +226,134 @@ select {
 .find_more_banquet {
   text-align: center;
   margin-bottom: 5rem;
+}
+
+/* ========================find and enjoy banquets component================================== */
+
+.Steps {
+  width: 80%;
+  margin: 5rem auto;
+}
+.Steps h1 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.simple_steps {
+  width: 80%;
+  margin: auto;
+}
+.find_banquet {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.8fr 1fr;
+}
+.banquet_steps {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  margin-left: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+.banquet_steps img {
+  width: 5rem;
+  position: relative;
+}
+/* .banquet_step_img::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  background-color: rgb(241, 8, 8);
+} */
+/* ==========================================grow component css================================================== */
+.growth {
+  width: 100%;
+  background: url(./assest/Map.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5rem;
+}
+
+.banquet_growth {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banquet_fasttest_growth {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.about_growth {
+  display: flex;
+  gap: 5rem;
+}
+.about_growth h1 {
+  color: rgb(241, 8, 8);
+}
+/* ===========================offer component css============================== */
+
+.offers {
+  width: 80%;
+  margin: 8rem auto;
+}
+.offers h1 {
+  position: relative;
+}
+.offers h1::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  top: 50%;
+  height: 0.2rem;
+  left: 20%;
+  background-color: rgb(24, 165, 130);
+}
+.offers_for_you {
+  width: 90%;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.first_offer_comp {
+  background-color: rgb(241, 8, 8);
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding: 5rem;
+  color: #fff;
+}
+.offer_btn {
+  color: white;
+  padding: 1.5rem 0.8rem;
+  border-radius: 50%;
+  border: 0.1rem solid #fff;
+  background-color: rgb(241, 8, 8);
+}
+.offer_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.offer_button {
+  border: none;
+  outline: none;
+  width: 7rem;
+  border-bottom: s;
+}
+.common_offer_card {
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.offer_lorem {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
 }

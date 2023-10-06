@@ -4,6 +4,9 @@ import Menu from "./components/Menu";
 import CenterSection from "./components/CenterSection";
 import Cities from "./components/Cities";
 import Banquets from "./components/Banquets";
+import FindAndEnjoyBanquet from "./components/FindAndEnjoyBanquet";
+import Grow from "./components/Grow";
+import Offers from "./components/Offers";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <CenterSection />
       <Cities />
       <Banquets />
+      <FindAndEnjoyBanquet />
+      <Grow />
+      <Offers />
     </>
   );
 }
