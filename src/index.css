@@ -6,6 +6,7 @@
 html {
   font-size: 62.5%;
 }
+
 .head {
   display: flex;
   padding: 1rem 2rem;
@@ -80,4 +81,146 @@ select {
 }
 .search-icon {
   padding: 0.2rem;
+}
+
+/*====================== Center-section css================================================== */
+
+.center_section {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  background-image: url(./assest/Slider-Main.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_Heading {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.heading {
+  font-size: 3.5rem;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
+}
+.highlight {
+  color: rgb(241, 8, 8);
+}
+.btn {
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: rgb(241, 8, 8);
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.banquet_info {
+  width: 80%;
+  display: grid;
+  align-items: center;
+  padding: 0rem 0.8rem;
+  column-gap: 0.5rem;
+  grid-template-columns: 1fr 0.8fr 0.8fr 0.5fr;
+  box-shadow: 0.2rem 0.2rem 0.5rem gray;
+  height: 6vh;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  background-color: #fff;
+  transform: translateX(-50%);
+}
+.about_banquet {
+  justify-content: space-between;
+  height: 2.8rem;
+  padding: 0.2rem 1rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(217, 212, 212);
+}
+.about_banquet p {
+  font-size: 1.2rem;
+}
+
+.banquet-info-search-button {
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 8, 8);
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+}
+
+/* =========================cities component css======================================= */
+.cities {
+  width: 80%;
+  margin: 8rem auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 0rem;
+}
+.cities img {
+  width: 100%;
+}
+
+/*============================== Banquets components=================================== */
+.our_top_banquets {
+  width: 80%;
+  margin: auto;
+}
+.banquets_card {
+  margin: 5rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+.top_banquets {
+  text-align: center;
+}
+.top_banquets p {
+  font-size: 2rem;
+}
+.common_card {
+  position: relative;
+  background-color: rgb(238, 233, 233);
+  border: 0.1rem solid gray;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.rating {
+  float: left;
+  text-align: center;
+  margin: 2rem;
+}
+.sub_card {
+  position: absolute;
+  padding: 2rem;
+  background-color: #fff;
+  bottom: 0;
+  right: 0;
+  width: 82%;
+}
+.sub_card_heading {
+  text-align: center;
+}
+.sub_card_highlight {
+  color: rgb(66, 66, 159);
+}
+.sub_card_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1rem 0rem;
+}
+.sub_card p {
+  font-size: 1.5rem;
+}
+.find_more_banquet {
+  text-align: center;
+  margin-bottom: 5rem;
 }

@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
 import CenterSection from "./components/CenterSection";
+import Cities from "./components/Cities";
+import Banquets from "./components/Banquets";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Nav />
       <Menu />
       <CenterSection />
+      <Cities />
+      <Banquets />
     </>
   );
 }

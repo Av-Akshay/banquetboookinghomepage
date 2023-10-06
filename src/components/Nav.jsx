@@ -1,7 +1,7 @@
 import React from "react";
-import banquet from "../Assest/BanquetBooking-Logo.png";
-import call from "../Assest/Phone.png";
-import Working from "../Assest/Working-Hours.png";
+import banquet from "../assest/BanquetBooking-Logo.png";
+import call from "../assest/Phone.png";
+import Working from "../assest/Working-Hours.png";
 
 const Nav = () => {
   return (

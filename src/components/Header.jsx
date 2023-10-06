@@ -1,11 +1,11 @@
 import React from "react";
-import facebook from "../Assest/Facebook.png";
-import twitter from "../Assest/Twitter.png";
-import insta from "../Assest/Instagram.png";
-import googlePlus from "../Assest/Google-Plus.png";
-import login from "../Assest/Login.png";
-import register from "../Assest/Register.png";
-import member from "../Assest/Become-Member.png";
+import facebook from "../assest/Facebook.png";
+import twitter from "../assest/Twitter.png";
+import insta from "../assest/Instagram.png";
+import googlePlus from "../assest/Google-Plus.png";
+import login from "../assest/Login.png";
+import register from "../assest/Register.png";
+import member from "../assest/Become-Member.png";
 
 const Header = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import search from "../Assest/Search-Icon.png";
+import search from "../assest/Search-Icon.png";
 
 const Menu = () => {
   return (
