@@ -9,8 +9,9 @@ html {
 .head {
   display: flex;
   padding: 1rem 2rem;
+  gap: 50vw;
   background-color: rgb(240, 248, 251);
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .social {
   display: flex;
@@ -26,18 +27,57 @@ html {
   padding-right: 1rem;
   border-right: 0.1rem solid black;
 }
-.menu {
+.nav {
   width: 90%;
   margin: auto;
   display: flex;
+  align-items: center;
+  height: 10rem;
   justify-content: space-between;
+  border-bottom: 0.1rem solid black;
 }
+
 .Call-Working {
   display: flex;
   gap: 1rem;
 }
-.common-style-menu {
+.common-style-nav {
   align-items: center;
   gap: 0.5rem;
   display: flex;
+}
+.common-style-menu p {
+  font-size: 1.2rem;
+}
+/* ================menu component css================= */
+
+.menu {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-cities {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+select {
+  border: none;
+  outline: none;
+}
+
+.search {
+  display: flex;
+  background-color: rgb(252, 203, 7);
+  border-radius: 0.5rem;
+}
+.search-cities {
+  padding: 0.1rem 0.5rem;
+  outline: none;
+  border: 0.2rem solid rgb(252, 203, 7);
+}
+.search-icon {
+  padding: 0.2rem;
 }
