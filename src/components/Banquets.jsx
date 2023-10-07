@@ -1,12 +1,12 @@
 import React from "react";
 import BanquetCommonComponent from "./BanquetCommonComponent";
 import {
-  Banquet1,
-  Banquet2,
-  Banquet3,
-  Banquet4,
-  Banquet5,
-  Banquet6,
+  BanquetOne,
+  BanquetTwo,
+  BanquetThree,
+  BanquetFour,
+  BanquetFive,
+  BanquetSix,
 } from "../images";
 
 const Banquets = () => {
@@ -17,12 +17,12 @@ const Banquets = () => {
         <p>Make your fuction more impressive with Banquet Booking</p>
       </div>
       <div className="banquets_card">
-        <BanquetCommonComponent Banquet={Banquet1} name={"Cately Stark"} />
-        <BanquetCommonComponent Banquet={Banquet2} name={"Magle Rhee"} />
-        <BanquetCommonComponent Banquet={Banquet3} name={"Etep Suretep"} />
-        <BanquetCommonComponent Banquet={Banquet4} name={"Cately Stark"} />
-        <BanquetCommonComponent Banquet={Banquet5} name={"Magle Rhee"} />
-        <BanquetCommonComponent Banquet={Banquet6} name={"Etep Suretep"} />
+        <BanquetCommonComponent Banquet={BanquetOne} name={"Cately Stark"} />
+        <BanquetCommonComponent Banquet={BanquetTwo} name={"Magle Rhee"} />
+        <BanquetCommonComponent Banquet={BanquetThree} name={"Etep Suretep"} />
+        <BanquetCommonComponent Banquet={BanquetFour} name={"Cately Stark"} />
+        <BanquetCommonComponent Banquet={BanquetFive} name={"Magle Rhee"} />
+        <BanquetCommonComponent Banquet={BanquetSix} name={"Etep Suretep"} />
       </div>
       <div className="find_more_banquet">
         <button className="btn">Find Out More</button>
