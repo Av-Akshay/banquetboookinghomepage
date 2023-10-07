@@ -24,11 +24,17 @@ html {
   gap: 1.5rem;
   height: 2rem;
 }
+.social {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
 .log-In {
   display: flex;
   gap: 0.8rem;
 }
 .sign-up {
+  cursor: pointer;
   display: flex;
   align-items: center;
   padding-right: 1rem;
@@ -201,6 +207,7 @@ html {
   background-color: rgb(241, 8, 8);
   border: none;
   outline: none;
+  height: 2.8rem;
   justify-content: space-around;
   color: #fff;
   padding: 0.3rem 0.5rem;
