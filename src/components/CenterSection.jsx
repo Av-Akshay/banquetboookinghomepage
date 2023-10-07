@@ -10,7 +10,7 @@ const CenterSection = () => {
           Find <span className="highlight">Banquet</span> near by <br />
           at best price
         </h1>
-        <button className="btn">Get Started!</button>
+        <button className="btn get-start">Get Started!</button>
       </div>
       <div className="banquet_info">
         <div className="about_banquet">
@@ -26,7 +26,7 @@ const CenterSection = () => {
         </div>
         <div className="banquet-info-search-button">
           <img src={Search} alt="" />
-          <p>search</p>
+          <p>Search</p>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const Grow = () => {
       <div className="banquet_growth">
         <div className="banquet_fasttest_growth">
           <div>
-            <h1>World fastest growing BanQuet chain</h1>
+            <h1 className="stats">World fastest growing BanQuet chain</h1>
             <p>More Destination, More Ease, More Affordable.</p>
           </div>
           <div className="about_growth">

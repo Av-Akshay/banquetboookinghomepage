@@ -80,7 +80,7 @@ const Menu = () => {
           <input
             className="search-cities"
             type="text"
-            placeholder="search-cities"
+            placeholder="Search cities"
           />
           <img className="search-icon" src={Search} alt="search-icon" />
         </div>

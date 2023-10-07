@@ -1,7 +1,7 @@
 import React from "react";
 import { BanquetBooking, Download } from "../images";
 
-const Fotter = () => {
+const Footer = () => {
   return (
     <footer>
       <div className="container">
@@ -58,4 +58,4 @@ const Fotter = () => {
   );
 };
 
-export default Fotter;
+export default Footer;

@@ -15,14 +15,14 @@ const Nav = () => {
             <img src={Call} alt=" Call-us" />
             <div>
               <h2>Call US: 123456789</h2>
-              <p>E-mail support@Banquetbooking.com</p>
+              <p className="email">E-mail support@Banquetbooking.com</p>
             </div>
           </div>
           <div className="common-style-nav">
             <img src={Working} alt=" Call-us" />
             <div>
               <h2>Working Hours</h2>
-              <p>Mon-Sun (8.00am-12.00am)</p>
+              <p className="email">Mon-Sun (8.00am-12.00am)</p>
             </div>
           </div>
         </div>

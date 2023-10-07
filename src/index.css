@@ -21,24 +21,31 @@ html {
 }
 .social {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
-  height: 2rem;
-}
-.social {
-  height: 2rem;
-  width: 2rem;
   cursor: pointer;
 }
+
+.social>img{
+  height: 2.1rem;
+}
+
 .log-In {
   display: flex;
   gap: 0.8rem;
 }
+.log-In>.sign-up:nth-child(2){
+  border-right: 0.1rem solid black; 
+  border-left: 0.1rem solid black; 
+}
 .sign-up {
+  padding: 0 1.5rem;
   cursor: pointer;
   display: flex;
   align-items: center;
-  padding-right: 1rem;
-  border-right: 0.1rem solid black;
+  justify-content: center;
+  gap: 3px;
 }
 .nav {
   width: 90%;
@@ -47,20 +54,26 @@ html {
   align-items: center;
   height: 10rem;
   justify-content: space-between;
-  /* border-bottom: 0.1rem solid black; */
+}
+
+.get-start{
+  font-size: 1.5rem;
+  padding: 2rem 4rem  !important;
+  border-radius: 3rem !important;
 }
 
 .Call-Working {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 .common-style-nav {
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.3rem;
   display: flex;
 }
-.common-style-menu p {
-  font-size: 1.2rem;
+.email {
+  font-size: 1.4rem;
+  color: gray;
 }
 /* ================menu component css================= */
 
@@ -76,11 +89,12 @@ html {
   border: none;
   outline: none;
   background-color: #fff;
+  font-size: 1.7rem;
 }
 .select-cities {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 55%;
   justify-content: space-between;
 }
 .search {
@@ -91,6 +105,7 @@ html {
   display: flex;
   width: 20rem;
   align-items: center;
+  margin-left: auto;
   gap: 1rem;
   border-radius: 0.5rem;
   background-color: rgb(252, 203, 7);
@@ -103,6 +118,7 @@ html {
 }
 .search-icon {
   padding: 0.2rem;
+  cursor: pointer;
 }
 .hidden_div {
   display: none;
@@ -180,13 +196,13 @@ html {
 
 .banquet_info {
   width: 80%;
-  display: grid;
-  align-items: center;
-  padding: 0rem 0.8rem;
-  column-gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 4px;
+  gap: 1rem;
   grid-template-columns: 1fr 0.8fr 0.8fr 0.2fr;
   box-shadow: 0.2rem 0.2rem 0.5rem gray;
-  height: 6vh;
   position: absolute;
   bottom: -2rem;
   left: 50%;
@@ -194,23 +210,25 @@ html {
   transform: translateX(-50%);
 }
 .about_banquet {
+  color: gray;
   justify-content: space-between;
-  height: 2.8rem;
-  padding: 0.2rem 1rem;
+  width: 29%;
+  padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  background-color: rgb(217, 212, 212);
+  background-color: rgb(232, 229, 229);
 }
 .banquet-info-search-button {
   display: flex;
+  justify-content: start;
+  gap: 1rem;
   align-items: center;
   background-color: rgb(241, 8, 8);
   border: none;
   outline: none;
-  height: 2.8rem;
-  justify-content: space-around;
+  flex-grow: 1;
   color: #fff;
-  padding: 0.3rem 0.5rem;
+  padding: 0.7rem 1rem;
 }
 
 /* =========================cities component css======================================= */
@@ -396,6 +414,9 @@ html {
   flex-direction: column;
   gap: 3rem;
 }
+.stats{
+  font-size: 2.6rem;
+}
 .about_growth {
   display: flex;
   gap: 5rem;
@@ -422,10 +443,10 @@ html {
   background-color: rgb(24, 165, 130);
 }
 .offers_for_you {
-  width: 90%;
+  /* width: 90%; */
   margin: 5rem auto;
   display: grid;
-  gap: 3rem;
+  gap: 7rem;
   grid-template-columns: repeat(3, 1fr);
 }
 .first_offer_comp {
@@ -478,6 +499,7 @@ html {
 footer {
   background-color: #fdfd96;
   padding-top: 5rem;
+  /* padding-bottom: 5rem; */
 }
 .footer_about {
   display: flex;
@@ -543,6 +565,7 @@ form input {
   background-color: rgb(241, 8, 8);
 }
 .footer_bottom_section {
+  margin-top: 5rem;
   background-color: #ffd700;
   padding: 1.8rem 0;
 }
