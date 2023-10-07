@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/banquetboookinghomepage/static/css/main.9a947e4f.css",
+    "main.js": "/banquetboookinghomepage/static/js/main.4e0aa422.js",
+    "static/media/Img.png": "/banquetboookinghomepage/static/media/Img.92177020a7b85082aa07.png",
+    "static/media/Slider-Main.jpg": "/banquetboookinghomepage/static/media/Slider-Main.2b12b0ea2cf2c765e66f.jpg",
+    "static/media/Banquet-5.png": "/banquetboookinghomepage/static/media/Banquet-5.4ebbda94b78904a6893d.png",
+    "static/media/Banquet-3.png": "/banquetboookinghomepage/static/media/Banquet-3.e0d8d2f7f490b54abbef.png",
+    "static/media/Banquet-1.png": "/banquetboookinghomepage/static/media/Banquet-1.4e74290e8fa2d5e0780b.png",
+    "static/media/Banquet-4.png": "/banquetboookinghomepage/static/media/Banquet-4.318da987e2889faed8dc.png",
+    "static/media/Banquet-2.png": "/banquetboookinghomepage/static/media/Banquet-2.1431cc647f46ee9b50ca.png",
+    "static/media/Banquet-6.png": "/banquetboookinghomepage/static/media/Banquet-6.f26ac2edcb1a8a16a52f.png",
+    "static/media/Map.png": "/banquetboookinghomepage/static/media/Map.ffcd28405b52dad511aa.png",
+    "static/media/Enjoy-Your-Moment-1.png": "/banquetboookinghomepage/static/media/Enjoy-Your-Moment-1.518ed14755570ba7b7bc.png",
+    "static/media/Booking-Your-Space-2.png": "/banquetboookinghomepage/static/media/Booking-Your-Space-2.0b710320d3374962418a.png",
+    "static/media/Find-Banquet-1.png": "/banquetboookinghomepage/static/media/Find-Banquet-1.5412daeaf3ec7ee71c74.png",
+    "static/media/Download.png": "/banquetboookinghomepage/static/media/Download.6d81c6aa6dc5cd4c0042.png",
+    "static/media/Chennai.png": "/banquetboookinghomepage/static/media/Chennai.e7e382e1b2851655a01a.png",
+    "index.html": "/banquetboookinghomepage/index.html",
+    "main.9a947e4f.css.map": "/banquetboookinghomepage/static/css/main.9a947e4f.css.map",
+    "main.4e0aa422.js.map": "/banquetboookinghomepage/static/js/main.4e0aa422.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a947e4f.css",
+    "static/js/main.4e0aa422.js"
+  ]
+}
