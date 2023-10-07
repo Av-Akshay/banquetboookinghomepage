@@ -9,11 +9,11 @@ const BanquetCommonComponent = (props) => {
         <img src={Banquet} alt="banquet" />
       </div>
       <div className="rating">
-        <div>
+        <div className="banquet_Rating">
           <img src={Heart} alt="heart" />
           <p>12</p>
         </div>
-        <div>
+        <div className="banquet_Rating">
           <img src={Comment} alt="comment" />
           <p>5</p>
         </div>

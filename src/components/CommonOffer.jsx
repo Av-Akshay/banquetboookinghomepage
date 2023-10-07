@@ -21,7 +21,7 @@ const CommonOffer = (props) => {
           vel repellendus officia fuga, quo soluta libero omnis, voluptas
         </p>
         <button style={background} className="offer_button">
-          Read More
+          Read More {`>>`}
         </button>
       </div>
     </div>

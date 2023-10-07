@@ -50,7 +50,8 @@ const Fotter = () => {
 
       <div className="footer_bottom_section">
         <p>
-          ⓒ {new Date().getUTCFullYear()} AkshayChauhan. All Rights Reserved
+          Copyright ⓒ {new Date().getUTCFullYear()} Banquet Booking. All right
+          reserved Designed by GreenusysTechnology
         </p>
       </div>
     </footer>

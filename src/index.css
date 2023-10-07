@@ -22,6 +22,7 @@ html {
 .social {
   display: flex;
   gap: 1.5rem;
+  height: 2rem;
 }
 .log-In {
   display: flex;
@@ -40,7 +41,7 @@ html {
   align-items: center;
   height: 10rem;
   justify-content: space-between;
-  border-bottom: 0.1rem solid black;
+  /* border-bottom: 0.1rem solid black; */
 }
 
 .Call-Working {
@@ -58,37 +59,81 @@ html {
 /* ================menu component css================= */
 
 .menu {
-  width: 90%;
+  width: 100%;
   margin: 2rem auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-}
-.select-cities {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
+  position: relative;
 }
 .select {
   border: none;
   outline: none;
-  width: 15rem;
   background-color: #fff;
 }
-
-.search {
+.select-cities {
   display: flex;
-  background-color: rgb(252, 203, 7);
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+.search {
+  width: 25%;
+  text-align: center;
+}
+.input_search {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+  gap: 1rem;
   border-radius: 0.5rem;
+  background-color: rgb(252, 203, 7);
 }
 .search-cities {
-  padding: 0.1rem 0.5rem;
+  padding: 0.8rem 0.5rem;
   outline: none;
   border-radius: 0.5rem;
   border: 0.2rem solid rgb(252, 203, 7);
 }
 .search-icon {
   padding: 0.2rem;
+}
+.hidden_div {
+  display: none;
+}
+
+.toggle_menu {
+  font-size: 2.5rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.toggle {
+  width: 118%;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 4rem;
+  left: -15rem;
+  z-index: 99;
+}
+.box {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.flex_box .select {
+  background: transparent;
+  font-size: 2.8rem;
+  color: #fff;
 }
 
 /*====================== Center-section css================================================== */
@@ -124,6 +169,7 @@ html {
   border: none;
   outline: none;
   color: white;
+  cursor: pointer;
 }
 
 .banquet_info {
@@ -132,7 +178,7 @@ html {
   align-items: center;
   padding: 0rem 0.8rem;
   column-gap: 0.5rem;
-  grid-template-columns: 1fr 0.8fr 0.8fr 0.5fr;
+  grid-template-columns: 1fr 0.8fr 0.8fr 0.2fr;
   box-shadow: 0.2rem 0.2rem 0.5rem gray;
   height: 6vh;
   position: absolute;
@@ -149,18 +195,15 @@ html {
   align-items: center;
   background-color: rgb(217, 212, 212);
 }
-.about_banquet p {
-  font-size: 1.2rem;
-}
-
 .banquet-info-search-button {
   display: flex;
   align-items: center;
   background-color: rgb(241, 8, 8);
   border: none;
   outline: none;
+  justify-content: space-around;
   color: #fff;
-  padding: 0.5rem 0.5rem;
+  padding: 0.3rem 0.5rem;
 }
 
 /* =========================cities component css======================================= */
@@ -205,8 +248,18 @@ html {
 }
 .rating {
   float: left;
-  text-align: center;
   margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+.banquet_Rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .sub_card {
   position: absolute;
@@ -247,20 +300,21 @@ html {
   margin-bottom: 5rem;
 }
 .simple_steps {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .find_banquet {
   display: grid;
   align-items: center;
-  grid-template-columns: 0.8fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 .banquet_steps {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 0.6fr);
   margin-left: 5rem;
   align-items: center;
   justify-content: center;
+  row-gap: 2rem;
 }
 .banquet_steps img {
   width: 5rem;
@@ -315,7 +369,7 @@ html {
   height: 40rem;
 }
 .banquet_growth {
-  width: 90%;
+  width: 70%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -355,24 +409,31 @@ html {
   width: 90%;
   margin: 5rem auto;
   display: grid;
-  gap: 2.5rem;
+  gap: 3rem;
   grid-template-columns: repeat(3, 1fr);
 }
 .first_offer_comp {
   background-color: rgb(241, 8, 8);
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   flex-direction: column;
-  border-radius: 2rem;
+  border-radius: 2rem 2rem 0 2rem;
   padding: 5rem;
   color: #fff;
 }
+.first_offer_heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .offer_btn {
   color: white;
-  padding: 1.5rem 0.8rem;
+  padding: 1.5rem 0.5rem;
   border-radius: 50%;
   border: 0.1rem solid #fff;
   background-color: rgb(241, 8, 8);
+  margin-top: 5rem;
+  cursor: pointer;
 }
 .offer_card {
   display: flex;
@@ -383,17 +444,19 @@ html {
 .offer_button {
   border: none;
   outline: none;
-  width: 7rem;
-  border-bottom: s;
+  width: 10rem;
+  border-bottom: 0.2rem solid;
+  cursor: pointer;
 }
 .common_offer_card {
-  border-radius: 2rem;
+  border-radius: 2rem 2rem 0 2rem;
   padding: 2rem;
 }
 .offer_lorem {
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 2rem;
+  margin-top: 1rem;
 }
 /*======================== footer componennts================== */
 footer {
@@ -425,26 +488,28 @@ footer {
   border-left: 0.1rem solid black;
   padding: 1rem 0rem 0rem 1rem;
 }
-.footer_links ul {
-  font-size: 1.2rem;
+ul {
+  font-size: 1.5rem;
   list-style-type: none;
   line-height: 1.8rem;
+}
+ul li {
+  margin-top: 0.2rem;
 }
 .footer_conditions {
   border-left: 0.1rem solid black;
   padding: 1rem 0rem 0rem 1rem;
 }
-.footer_conditions ul {
-  list-style-type: none;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-}
+
 .footer_submit {
   border-left: 0.1rem solid black;
   padding: 1rem 0rem 0rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.footer_submit label {
+  font-size: 1.5rem;
 }
 form {
   display: flex;
@@ -458,11 +523,12 @@ form input {
   border: none;
   outline: none;
   color: #fff;
+  cursor: pointer;
   background-color: rgb(241, 8, 8);
 }
 .footer_bottom_section {
   background-color: #ffd700;
-  padding: 0.8rem 0;
+  padding: 1.8rem 0;
 }
 .footer_bottom_section p {
   text-align: center;
@@ -478,12 +544,14 @@ form input {
   .head {
     gap: 36vw;
   }
-  .menu {
-    width: 97%;
-    margin: 5rem auto;
-  }
   .banquet-logo {
     width: 25rem;
+  }
+  .input_search {
+    width: 22rem;
+  }
+  .select-cities {
+    width: 60%;
   }
   .simple_steps {
     width: 90%;
@@ -493,12 +561,27 @@ form input {
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 790px) {
   html {
     font-size: 50%;
   }
   p {
     font-size: 1.2rem;
+  }
+  .hidden_div {
+    display: block;
+  }
+  .toggle {
+    width: 105%;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 4rem;
+    left: -1rem;
+    z-index: 99;
+  }
+  .select-cities {
+    display: none;
   }
   .nav {
     width: 95%;
@@ -512,6 +595,9 @@ form input {
   .select-cities {
     width: 75%;
   }
+  .input_search {
+    width: 25rem;
+  }
 
   .about_banquet img {
     width: 3rem;
@@ -519,9 +605,6 @@ form input {
   }
   .common-style-nav {
     gap: 0.2rem;
-  }
-  .select-cities {
-    flex-wrap: wrap;
   }
   .our_top_banquets {
     width: 95%;
@@ -541,6 +624,10 @@ form input {
   }
   .simple_steps {
     width: 100%;
+  }
+  .search {
+    width: 40%;
+    text-align: center;
   }
   .offers h1::after {
     left: 30%;
@@ -563,7 +650,7 @@ form input {
 @media (max-width: 500px) {
   form input {
     padding: 0.5rem 0.8rem;
-    width: 20rem;
+    width: 15rem;
   }
   .banquet-logo {
     width: 16rem;
@@ -590,7 +677,6 @@ form input {
   }
   .sub_card {
     padding: 0.8rem;
-    width: 66%;
   }
   .banquet_growth {
     width: 96%;
@@ -627,7 +713,7 @@ form input {
     width: 40%;
   }
   .search-cities {
-    width: 15rem;
+    width: 20rem;
   }
   .Steps {
     width: 95%;
