@@ -645,6 +645,9 @@ form input {
     width: 40%;
     text-align: center;
   }
+  .offer_button {
+    font-size: 1.5rem;
+  }
   .offers h1::after {
     left: 30%;
   }
@@ -794,6 +797,7 @@ form input {
     padding: 0.2rem;
     width: 61%;
   }
+
   .offers_for_you {
     width: 95%;
   }
