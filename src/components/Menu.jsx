@@ -1,33 +1,33 @@
 import React from "react";
-import search from "../assest/Search-Icon.png";
+import { Search } from "../images";
 
 const Menu = () => {
   return (
     <div className="menu">
       <div className="select-cities">
         <select className="select" id="cars">
-          <option value="volvo">Banglore</option>
+          <option value="Banglore">Banglore</option>
         </select>
         <select className="select" id="cars">
-          <option value="volvo">Chennai</option>
+          <option value="Chennai">Chennai</option>
         </select>
         <select className="select" id="cars">
-          <option value="volvo">Delhi</option>
+          <option value="Delhi">Delhi</option>
         </select>
         <select className="select" id="cars">
-          <option value="volvo">Gurgaon</option>
+          <option value="Gurgaon">Gurgaon</option>
         </select>
         <select className="select" id="cars">
-          <option value="volvo">Hyderabad</option>
+          <option value="Hyderabad">Hyderabad</option>
         </select>
         <select className="select" id="cars">
-          <option value="volvo">Kolkata</option>
+          <option value="Kolkata">Kolkata</option>
         </select>
         <select className="select" id="cars">
-          <option value="volvo">Mumbai</option>
+          <option value="Mumbai">Mumbai</option>
         </select>
         <select className="select" id="cars">
-          <option value="volvo">Noida</option>
+          <option value="Noida">Noida</option>
         </select>
       </div>
       <div className="search">
@@ -36,7 +36,7 @@ const Menu = () => {
           type="text"
           placeholder="search-cities"
         />
-        <img className="search-icon" src={search} alt="search-icon" />
+        <img className="search-icon" src={Search} alt="search-icon" />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart, comment } from "../images";
+import { Heart, Comment } from "../images";
 
 const BanquetCommonComponent = (props) => {
   const { Banquet, name } = props;
@@ -14,7 +14,7 @@ const BanquetCommonComponent = (props) => {
           <p>12</p>
         </div>
         <div>
-          <img src={comment} alt="comment" />
+          <img src={Comment} alt="comment" />
           <p>5</p>
         </div>
       </div>

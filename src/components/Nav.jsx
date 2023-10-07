@@ -1,19 +1,17 @@
 import React from "react";
-import banquet from "../assest/BanquetBooking-Logo.png";
-import call from "../assest/Phone.png";
-import Working from "../assest/Working-Hours.png";
+import { Banquet, Call, Working } from "../images";
 
 const Nav = () => {
   return (
     <div className="nav">
       <img
         className="banquet-logo"
-        src={banquet}
+        src={Banquet}
         alt="BanquetBooking-Logo.png"
       />
       <div className="Call-Working">
         <div className="common-style-nav">
-          <img src={call} alt=" Call-us" />
+          <img src={Call} alt=" Call-us" />
           <div>
             <h2>Call US: 123456789</h2>
             <p>E-mail support@Banquetbooking.com</p>
