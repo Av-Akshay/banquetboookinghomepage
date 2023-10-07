@@ -34,7 +34,18 @@ import Search from "./assest/Search-Icon.png";
 import Clander from "./assest/Time-Icon.png";
 import Peoples from "./assest/People-Quantity.png";
 
+import Banglore from "./assest/Banglore.png";
+import Delhi from "./assest/Delhi.png";
+import Hydrabaad from "./assest/Hyderabad.png";
+import Gurgaon from "./assest/Gurgaon.png";
+import Chennai from "./assest/Chennai.png";
+
 export {
+  Banglore,
+  Delhi,
+  Hydrabaad,
+  Gurgaon,
+  Chennai,
   Clander,
   Peoples,
   Banquet,

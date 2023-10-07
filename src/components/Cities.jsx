@@ -1,9 +1,6 @@
 import React from "react";
-import Banglore from "../assest/Banglore.png";
-import Delhi from "../assest/Delhi.png";
-import Hydrabaad from "../assest/Hyderabad.png";
-import Gurgaon from "../assest/Gurgaon.png";
-import Chennai from "../assest/Chennai.png";
+
+import { Banglore, Delhi, Hydrabaad, Gurgaon, Chennai } from "../images";
 
 const Cities = () => {
   return (
