@@ -115,6 +115,7 @@ html {
   outline: none;
   border-radius: 0.5rem;
   border: 0.2rem solid rgb(252, 203, 7);
+  width: 20rem;
 }
 .search-icon {
   padding: 0.2rem;
@@ -587,7 +588,7 @@ form input {
     width: 25rem;
   }
   .input_search {
-    width: 22rem;
+    width: 25rem;
   }
   .select-cities {
     width: 60%;
@@ -666,7 +667,6 @@ form input {
   }
   .search {
     width: 40%;
-    text-align: center;
   }
   .offer_button {
     font-size: 1.5rem;
@@ -799,6 +799,9 @@ form input {
 @media (max-width: 300px) {
   .banquet-logo {
     width: 10rem;
+  }
+  .search {
+    width: 50%;
   }
   .Steps {
     width: 98%;
