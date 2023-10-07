@@ -31,7 +31,12 @@ import Working from "./assest/Working-Hours.png";
 
 import Search from "./assest/Search-Icon.png";
 
+import Clander from "./assest/Time-Icon.png";
+import Peoples from "./assest/People-Quantity.png";
+
 export {
+  Clander,
+  Peoples,
   Banquet,
   Call,
   Working,

@@ -15,11 +15,9 @@ const Offers = () => {
         <CommonOffer
           icon={OfferImg}
           name={"Paul Scholes"}
-          // border={boder1}
           background={bg_color1}
         />
         <CommonOffer
-          // border={boder2}
           icon={OfferImg}
           name={"Hary Cane"}
           background={bg_color2}

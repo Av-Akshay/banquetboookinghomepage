@@ -1,7 +1,6 @@
 import React from "react";
-import clender from "../assest/Time-Icon.png";
-import peoples from "../assest/People-Quantity.png";
-import search from "../assest/Search-Icon.png";
+
+import { Clander, Peoples, Search } from "../images";
 
 const CenterSection = () => {
   return (
@@ -19,14 +18,14 @@ const CenterSection = () => {
         </div>
         <div className="about_banquet">
           <p>Jan 27-29</p>
-          <img src={clender} alt="time" />
+          <img src={Clander} alt="time" />
         </div>
         <div className="about_banquet">
           <p>People 500</p>
-          <img src={peoples} alt="peoples" />
+          <img src={Peoples} alt="peoples" />
         </div>
         <div className="banquet-info-search-button">
-          <img src={search} alt="" />
+          <img src={Search} alt="" />
           <p>search</p>
         </div>
       </div>
