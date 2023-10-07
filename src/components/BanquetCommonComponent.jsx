@@ -3,7 +3,6 @@ import { Heart, Comment } from "../images";
 
 const BanquetCommonComponent = (props) => {
   const { Banquet, name, heading } = props;
-  console.log(heading);
 
   return (
     <div className="common_card">
