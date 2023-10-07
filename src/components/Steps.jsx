@@ -2,7 +2,7 @@ import React from "react";
 
 const Steps = (props) => {
   const { img, icon, order1, order2, classCom } = props;
-  console.log(classCom);
+
   return (
     <div className="find_banquet">
       <div className={`item1 ${classCom}`} style={order2}>

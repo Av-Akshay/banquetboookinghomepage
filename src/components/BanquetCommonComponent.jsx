@@ -2,7 +2,9 @@ import React from "react";
 import { Heart, Comment } from "../images";
 
 const BanquetCommonComponent = (props) => {
-  const { Banquet, name } = props;
+  const { Banquet, name, heading } = props;
+  console.log(heading);
+
   return (
     <div className="common_card">
       <div>
@@ -25,7 +27,7 @@ const BanquetCommonComponent = (props) => {
         <div className="sub_card_flex">
           <div>
             <h2>Indian Banquet</h2>
-            <p>Light Meal</p>
+            <p className={heading}>Light Meal</p>
           </div>
           <p>
             Spicy combination of beef,

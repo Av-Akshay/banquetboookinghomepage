@@ -276,6 +276,15 @@ html {
   right: 0;
   width: 75%;
 }
+.pink_heading {
+  color: rgb(249, 128, 148);
+}
+.yellow_heading {
+  color: #ffd700;
+}
+.green_heading {
+  color: rgb(9, 239, 113);
+}
 .sub_card_heading {
   text-align: center;
 }
