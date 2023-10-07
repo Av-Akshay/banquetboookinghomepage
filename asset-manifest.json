@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/banquetboookinghomepage/static/css/main.927864d1.css",
+    "main.css": "/banquetboookinghomepage/static/css/main.69f6fc71.css",
     "main.js": "/banquetboookinghomepage/static/js/main.2d8d572d.js",
     "static/media/Img.png": "/banquetboookinghomepage/static/media/Img.92177020a7b85082aa07.png",
     "static/media/Slider-Main.jpg": "/banquetboookinghomepage/static/media/Slider-Main.2b12b0ea2cf2c765e66f.jpg",
@@ -17,11 +17,11 @@
     "static/media/Download.png": "/banquetboookinghomepage/static/media/Download.6d81c6aa6dc5cd4c0042.png",
     "static/media/Chennai.png": "/banquetboookinghomepage/static/media/Chennai.e7e382e1b2851655a01a.png",
     "index.html": "/banquetboookinghomepage/index.html",
-    "main.927864d1.css.map": "/banquetboookinghomepage/static/css/main.927864d1.css.map",
+    "main.69f6fc71.css.map": "/banquetboookinghomepage/static/css/main.69f6fc71.css.map",
     "main.2d8d572d.js.map": "/banquetboookinghomepage/static/js/main.2d8d572d.js.map"
   },
   "entrypoints": [
-    "static/css/main.927864d1.css",
+    "static/css/main.69f6fc71.css",
     "static/js/main.2d8d572d.js"
   ]
 }
