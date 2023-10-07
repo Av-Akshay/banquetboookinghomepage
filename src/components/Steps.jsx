@@ -1,10 +1,11 @@
 import React from "react";
 
 const Steps = (props) => {
-  const { img, icon, order1, order2 } = props;
+  const { img, icon, order1, order2, classCom } = props;
+  console.log(classCom);
   return (
     <div className="find_banquet">
-      <div className="item1" style={order2}>
+      <div className={`item1 ${classCom}`} style={order2}>
         <img src={img} alt="find-Bannquet" />
       </div>
       <div className="banquet_steps item2" style={order1}>

@@ -69,9 +69,11 @@ html {
   justify-content: space-between;
   width: 50%;
 }
-select {
+.select {
   border: none;
   outline: none;
+  width: 15rem;
+  background-color: #fff;
 }
 
 .search {
@@ -82,6 +84,7 @@ select {
 .search-cities {
   padding: 0.1rem 0.5rem;
   outline: none;
+  border-radius: 0.5rem;
   border: 0.2rem solid rgb(252, 203, 7);
 }
 .search-icon {
@@ -184,6 +187,9 @@ select {
   grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
 }
+.common_card img {
+  width: 100%;
+}
 .top_banquets {
   text-align: center;
 }
@@ -258,17 +264,44 @@ select {
 }
 .banquet_steps img {
   width: 5rem;
+}
+.compOne {
   position: relative;
 }
-/* .banquet_step_img::after {
+.compOne::after {
   content: "";
   position: absolute;
-  top: 100%;
-  left: 0;
+  top: 80%;
+  left: 50%;
   width: 100%;
-  height: 2rem;
-  background-color: rgb(241, 8, 8);
-} */
+  height: 0.2rem;
+  background-color: rgb(242, 29, 29);
+}
+.compTwo {
+  position: relative;
+}
+.compTwo::after {
+  content: "";
+  position: absolute;
+  top: 82%;
+  left: -50%;
+  width: 100%;
+  height: 0.2rem;
+  background-color: rgb(252, 203, 7);
+}
+.compThird {
+  position: relative;
+}
+.compThird::after {
+  content: "";
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  width: 100%;
+  height: 0.2rem;
+  background-color: rgb(0, 179, 255);
+}
+
 /* ==========================================grow component css================================================== */
 .growth {
   width: 100%;
@@ -446,7 +479,8 @@ form input {
     gap: 36vw;
   }
   .menu {
-    width: 98%;
+    width: 97%;
+    margin: 5rem auto;
   }
   .banquet-logo {
     width: 25rem;
@@ -472,6 +506,13 @@ form input {
   .Call-Working {
     gap: 0.2rem;
   }
+  .banquet-info-search-button {
+    padding: 0.4rem 0.5rem;
+  }
+  .select-cities {
+    width: 75%;
+  }
+
   .about_banquet img {
     width: 3rem;
     height: 3rem;
@@ -484,6 +525,10 @@ form input {
   }
   .our_top_banquets {
     width: 95%;
+  }
+  .banquets_card {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   .rating {
     margin: 0.5rem;
@@ -510,6 +555,9 @@ form input {
   }
   .banquet-logo {
     width: 18rem;
+  }
+  .banquet-info-search-button {
+    padding: 0.3rem 0.5rem;
   }
 }
 @media (max-width: 500px) {
@@ -561,11 +609,25 @@ form input {
   .banquet-logo {
     width: 12rem;
   }
+  .banquet-info-search-button img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
   .common-style-nav img {
     width: 3rem;
   }
+  .select {
+    font-size: 2rem;
+    width: 13rem;
+  }
   .banquet_info {
     width: 90%;
+  }
+  .search-cities {
+    width: 40%;
+  }
+  .search-cities {
+    width: 15rem;
   }
   .Steps {
     width: 95%;
@@ -615,6 +677,9 @@ form input {
   }
   .item1 img {
     width: 18rem;
+  }
+  .select-cities {
+    width: 60%;
   }
   .Growth_img {
     width: 25rem;
