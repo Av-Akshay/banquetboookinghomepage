@@ -22,7 +22,7 @@ import Twitter from "./assest/Twitter.png";
 import Insta from "./assest/Instagram.png";
 import GooglePlus from "./assest/Google-Plus.png";
 import Login from "./assest/Login.png";
-import Register from "./assest/Register.png";
+import RegisterForm from "./assest/Register.png";
 import Member from "./assest/Become-Member.png";
 
 import Banquet from "./assest/BanquetBooking-Logo.png";
@@ -75,6 +75,6 @@ export {
   Insta,
   GooglePlus,
   Login,
-  Register,
+  RegisterForm,
   Member,
 };

@@ -1,13 +1,13 @@
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Menu from "./components/Menu";
-import CenterSection from "./components/CenterSection";
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import Menu from "./components/menu/Menu";
+import CenterSection from "./components/center-Component/CenterSection";
 import Cities from "./components/Cities";
-import Banquets from "./components/Banquets";
-import FindAndEnjoyBanquet from "./components/FindAndEnjoyBanquet";
-import Grow from "./components/Grow";
-import Offers from "./components/Offers";
-import Fotter from "./components/Fotter";
+import Banquets from "./components/banquet-card/Banquets";
+import FindAndEnjoyBanquet from "./components/stepsToFindBanquet/FindAndEnjoyBanquet";
+import Grow from "./components/growth-component/Grow";
+import Offers from "./components/offersComponent/Offers";
+import Fotter from "./components/footer/Fotter";
 
 function App() {
   return (

@@ -1,5 +1,7 @@
 import React from "react";
-import BanquetCommonComponent from "./BanquetCommonComponent";
+import BanquetCommonComponent from "./compnents/BanquetCommonComponent";
+
+import "./index.css";
 import {
   BanquetOne,
   BanquetTwo,
@@ -7,7 +9,7 @@ import {
   BanquetFour,
   BanquetFive,
   BanquetSix,
-} from "../images";
+} from "../../images";
 
 const Banquets = () => {
   const pink = " pink_heading";

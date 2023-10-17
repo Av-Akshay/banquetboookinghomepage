@@ -1,5 +1,6 @@
 import React from "react";
 import Steps from "./Steps";
+import "./steps.css";
 import {
   FindBaquet,
   FindSearch,
@@ -7,7 +8,7 @@ import {
   BookingIcon,
   Enjoy,
   EnjoyIcon,
-} from "../images";
+} from "../../images";
 
 const FindAndEnjoyBanquet = () => {
   const order1 = { order: 1 };

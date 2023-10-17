@@ -1,0 +1,98 @@
+.nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  justify-content: space-between;
+}
+.image_div {
+  width: 25%;
+}
+.banquet_logo {
+  width: 100%;
+}
+
+.Call-Working {
+  display: flex;
+  gap: 1rem;
+  width: 80%;
+  justify-content: flex-end;
+}
+.common_style_nav {
+  align-items: center;
+  gap: 0.5rem;
+  display: flex;
+}
+.call_us h2 {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+.working_hour h2 {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+.call_us p {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.working_hour p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 810px) {
+  .call_us h2 {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+  .working_hour h2 {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+  .call_us p {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  .working_hour p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 590px) {
+  .common_style_nav img {
+    width: 2.5rem;
+  }
+  .nav {
+    width: 95%;
+  }
+}
+@media (max-width: 400px) {
+  .common_style_nav img {
+    width: 2rem;
+  }
+  .call_us h2 {
+    font-size: 1.2rem;
+  }
+  .call_us p {
+    font-size: 1rem;
+  }
+  .working_hour h2 {
+    font-size: 1.2rem;
+  }
+  .working_hour p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .call_us h2 {
+    font-size: 1rem;
+  }
+  .call_us p {
+    font-size: 0.8rem;
+  }
+  .working_hour h2 {
+    font-size: 1rem;
+  }
+  .working_hour p {
+    font-size: 0.8rem;
+  }
+}

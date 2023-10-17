@@ -1,15 +1,18 @@
 import React from "react";
-import FirstOffer from "./FirstOffer";
-import CommonOffer from "./CommonOffer";
-import { OfferImg } from "../images";
+import FirstOffer from "./components/FirstOffer";
+import CommonOffer from "./components/CommonOffer";
+import { OfferImg } from "../../images";
+import "./offer.css";
 
 const Offers = () => {
-  const bg_color1 = { backgroundColor: "#ffd700" };
-  const bg_color2 = { backgroundColor: "rgb(24, 165, 130)", color: "#fff" };
+  const bg_color1 = { backgroundColor: "#fca510" };
+  const bg_color2 = { backgroundColor: "rgb(4 171 195)", color: "#fff" };
 
   return (
     <div className="offers">
-      <h1>Offers For You</h1>
+      <div className="offer_heading">
+        <h1>Offers For You</h1>
+      </div>
       <div className="offers_for_you">
         <FirstOffer />
         <CommonOffer

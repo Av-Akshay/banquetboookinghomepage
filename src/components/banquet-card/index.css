@@ -1,0 +1,166 @@
+/*============================== Banquets components=================================== */
+.our_top_banquets {
+  width: 92%;
+  margin: auto;
+}
+.banquets_card {
+  margin: 5rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+.common_card img {
+  width: 100%;
+}
+.top_banquets {
+  text-align: center;
+  line-height: 4rem;
+}
+.top_banquets p {
+  font-size: 1.6rem;
+}
+.common_card {
+  position: relative;
+  background-color: rgb(238, 233, 233);
+  border-radius: 1rem;
+  /* overflow: hidden; */
+}
+.rating {
+  float: left;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+  height: 15rem;
+  box-shadow: -0.3px 0.3px 1px gray;
+  border-radius: 0 0 0 1.2rem;
+}
+.banquet_Rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 4rem;
+}
+.sub_card {
+  position: absolute;
+  padding: 1.5rem 1rem 1rem 2rem;
+  background-color: #fff;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 45%;
+  box-shadow: 0.3px 0.3px 1px gray;
+  border-radius: 0 0 1.2rem 0;
+}
+.pink_heading {
+  color: rgb(249, 128, 148);
+}
+.yellow_heading {
+  color: #ffd700;
+}
+.green_heading {
+  color: rgb(7, 177, 120);
+}
+.sub_card_heading {
+  text-align: center;
+}
+.sub_card_highlight {
+  color: rgb(2, 133, 156);
+}
+.sub_card_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0rem;
+}
+.indian_banquet {
+  line-height: 3.8rem;
+}
+.sub_card_flex p {
+  line-height: 1.8rem;
+}
+
+.sub_card p {
+  font-size: 1.6rem;
+}
+.find_more_banquet {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.errow {
+  font-size: 1rem;
+}
+
+@media (max-width: 1250px) {
+  .indian_banquet {
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 950px) {
+  .sub_card {
+    padding: 1.8rem;
+    height: 50%;
+  }
+  .sub_card_flex {
+    margin: 1.5rem 0;
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .banquets_card {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .indian_banquet {
+    line-height: 3rem;
+  }
+
+  .sub_card p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .sub_card {
+    height: 60%;
+  }
+  .indian_banquet {
+    line-height: 3.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .sub_card {
+    padding: 1rem;
+  }
+  .sub_card_flex {
+    margin: 1rem 0;
+    gap: 0.8rem;
+  }
+  .sub_card p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .banquets_card {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .sub_card {
+    padding: 2rem;
+    height: 50%;
+  }
+  .sub_card_flex {
+    margin: 2rem 0;
+    gap: 1.2rem;
+  }
+  .sub_card p {
+    font-size: 1.5rem;
+  }
+}

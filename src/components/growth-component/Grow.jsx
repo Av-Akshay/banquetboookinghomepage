@@ -1,5 +1,6 @@
 import React from "react";
-import { Growth } from "../images";
+import "./index.css";
+import { Growth } from "../../images";
 
 const Grow = () => {
   return (
@@ -21,7 +22,7 @@ const Grow = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="banquet_growth_img">
           <img className="Growth_img" src={Growth} alt="Growing-img" />
         </div>
       </div>

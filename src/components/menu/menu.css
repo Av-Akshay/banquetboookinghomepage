@@ -1,0 +1,109 @@
+.menu_section {
+  width: 100%;
+}
+.menu {
+  width: 95%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.select {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 2rem;
+}
+.select-cities {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.search_img {
+  width: 3.2rem;
+  display: grid;
+}
+
+.input_search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(252, 203, 7);
+  width: 100%;
+}
+.search-cities {
+  padding: 0.8rem 0.5rem;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 0.2rem solid rgb(252, 203, 7);
+}
+.search-icon {
+  padding: 0.2rem;
+}
+.hidden_div {
+  display: none;
+}
+
+.toggle_menu {
+  font-size: 3rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.toggle {
+  width: 118%;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 4rem;
+  left: -15rem;
+  z-index: 99;
+}
+.box {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.flex_box .select {
+  background: transparent;
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+@media (max-width: 950px) {
+  .select {
+    font-size: 1.52rem;
+  }
+}
+@media (max-width: 790px) {
+  .hidden_div {
+    display: block;
+  }
+  .toggle {
+    width: 105%;
+    height: 75vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 6rem;
+    left: -1rem;
+    z-index: 99;
+  }
+  .select-cities {
+    display: none;
+  }
+}

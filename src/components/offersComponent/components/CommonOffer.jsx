@@ -5,10 +5,10 @@ const CommonOffer = (props) => {
   return (
     <div style={background} className="common_offer_card">
       <div className="offer_card">
-        <div>
+        <div className="offer_card_img">
           <img src={icon} alt="offer-icon" />
         </div>
-        <div>
+        <div className="offer_card_hading">
           <h2>{name}</h2>
           <p>15 Jan,2020</p>
         </div>
@@ -20,9 +20,11 @@ const CommonOffer = (props) => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat est
           vel repellendus officia fuga, quo soluta libero omnis, voluptas
         </p>
-        <button style={background} className="offer_button">
-          Read More {`>>`}
-        </button>
+        <span>
+          <button style={background} className="offer_button">
+            Read More
+          </button>
+        </span>
       </div>
     </div>
   );

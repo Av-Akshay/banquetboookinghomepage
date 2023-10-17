@@ -9,11 +9,13 @@ const Steps = (props) => {
         <img src={img} alt="find-Bannquet" />
       </div>
       <div className="banquet_steps item2" style={order1}>
-        <img className="banquet_step_img" src={icon} alt="search" />
-        <h2>Find Banquet</h2>
+        <div>
+          <img className="banquet_step_img" src={icon} alt="search" />
+          <h2>Find Banquet</h2>
+        </div>
         <p>
-          Discover custom for your home or batch formulas for <br />
-          restaurents and commercial
+          Discover custom for your home or batch formulas for restaurents and
+          commercial
         </p>
       </div>
     </div>

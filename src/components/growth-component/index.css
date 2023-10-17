@@ -1,0 +1,63 @@
+.growth {
+  width: 100%;
+  background: url(../../assest/Map.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5rem;
+}
+
+.banquet_growth_img {
+  display: flex;
+  justify-content: center;
+}
+
+.Growth_img {
+  width: 90%;
+}
+.banquet_growth {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banquet_fasttest_growth {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.banquet_fasttest_growth h1 {
+  font-size: 3.2rem;
+}
+.banquet_fasttest_growth p {
+  font-size: 2rem;
+}
+.about_growth {
+  display: flex;
+  gap: 5rem;
+}
+.about_growth h1 {
+  font-size: 3rem;
+  color: rgb(241, 8, 8);
+}
+@media (max-width: 750px) {
+  .banquet_growth {
+    width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  .banquet_growth {
+    width: 90%;
+  }
+  .banquet_fasttest_growth h1 {
+    font-size: 2.3rem;
+  }
+  .banquet_fasttest_growth p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .banquet_growth {
+    width: 95%;
+  }
+}

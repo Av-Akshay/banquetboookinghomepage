@@ -1,6 +1,7 @@
 import React from "react";
+import "./index.css";
 
-import { Clander, Peoples, Search } from "../images";
+import { Clander, Peoples, Search } from "../../images";
 
 const CenterSection = () => {
   return (
@@ -26,7 +27,7 @@ const CenterSection = () => {
         </div>
         <div className="banquet-info-search-button">
           <img src={Search} alt="" />
-          <p>search</p>
+          <p>Search</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,258 @@
+.offers {
+  width: 90%;
+  margin: 8rem auto;
+}
+h2 {
+  font-size: 1.8rem;
+}
+.offer_lorem p {
+  font-size: 1.5rem;
+  line-height: 200%;
+}
+.offer_heading {
+  font-size: 2rem;
+  width: 90%;
+  margin: auto;
+}
+.offers h1 {
+  position: relative;
+}
+.offers h1::after {
+  position: absolute;
+  content: "";
+  width: 30%;
+  top: 70%;
+  height: 0.2rem;
+  left: 36rem;
+  background-color: rgb(24, 165, 130);
+}
+.offers_for_you {
+  width: 90%;
+  margin: 5rem auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.frank_card_comp {
+  position: relative;
+  background-color: rgb(241, 8, 8);
+  border-radius: 3.8rem 3.8rem 0 3.8rem;
+}
+
+.first_offer_comp {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  color: #fff;
+  margin: 3rem;
+}
+.first_offer_heading {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.frank_card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.frank_card p {
+  font-size: 1.6rem;
+}
+
+.offer_btn {
+  color: white;
+
+  border-radius: 50%;
+  border: 0.2rem solid #fff;
+  background-color: rgb(241, 8, 8);
+  margin-top: 5rem;
+  cursor: pointer;
+  position: relative;
+  height: 7rem;
+  width: 7rem;
+}
+
+.offer_btn::after {
+  content: "";
+  height: 0.2rem;
+  background-color: white;
+  width: 75%;
+  top: 50%;
+  left: -85%;
+  position: absolute;
+}
+
+.offer_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 80%;
+  margin: 2rem auto;
+}
+.offer_card_img {
+  width: 5rem;
+}
+
+.offer_card_hading {
+  width: 60%;
+}
+.offer_card_hading p {
+  font-size: 1.6rem;
+}
+
+.offer_button {
+  border: none;
+  outline: none;
+
+  border-bottom: 0.1rem solid;
+  cursor: pointer;
+}
+.common_offer_card {
+  border-radius: 3.8rem 3.8rem 0 3.8rem;
+  padding: 8%;
+  height: 40rem;
+}
+.offer_lorem {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.more_btn {
+  position: relative;
+}
+.more_btn::after {
+  content: "";
+  height: 0.2rem;
+  background-color: white;
+  width: 100%;
+  top: 100%;
+  left: -0;
+  position: absolute;
+}
+
+@media (max-width: 1050px) {
+  .offer_lorem p {
+    line-height: 140%;
+  }
+}
+@media (max-width: 850px) {
+  .offer_heading {
+    width: 95%;
+  }
+  .offer_heading h1 {
+    font-size: 3rem;
+  }
+  .offers h1::after {
+    width: 30%;
+    left: 22rem;
+  }
+
+  .first_offer_heading h2 {
+    font-size: 1.6rem;
+  }
+  .frank_card h2 {
+    font-size: 1.6rem;
+  }
+  .frank_card p {
+    font-size: 1.4rem;
+  }
+  .offer_card {
+    width: 90%;
+    justify-content: space-between;
+    gap: 0rem;
+  }
+  .offer_card_img {
+    width: 4rem;
+  }
+  .offer_card_img img {
+    width: 100%;
+  }
+  .offer_card_hading {
+    width: 70%;
+  }
+  .offer_card_hading h2 {
+    font-size: 1.6rem;
+  }
+  .offer_card_hading p {
+    font-size: 1.4rem;
+  }
+  .offer_lorem {
+    gap: 1.8rem;
+  }
+  .offer_lorem p {
+    line-height: 120%;
+  }
+  .offer_lorem h2 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 580px) {
+  .first_offer_comp {
+    margin: 2rem;
+  }
+  .offer_btn {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .offer_card {
+    width: 100%;
+    margin: 1.2rem auto;
+  }
+  .offers_for_you {
+    gap: 1.8rem;
+    width: 95%;
+  }
+  .offer_card_img {
+    width: 3.5rem;
+  }
+  .offer_card_hading h2 {
+    font-size: 1.4rem;
+  }
+  .offer_card_hading p {
+    font-size: 1.2rem;
+  }
+  .offer_lorem h2 {
+    font-size: 1.4rem;
+  }
+  .offer_button {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 400px) {
+  .offers_for_you {
+    width: 65%;
+    grid-template-columns: 1fr;
+  }
+  .frank_card_comp {
+    height: 32rem;
+  }
+  .common_offer_card {
+    height: 32rem;
+  }
+  .offer_heading {
+    width: 100%;
+  }
+  .offer_heading h1 {
+    font-size: 2.5rem;
+  }
+  .offers h1::after {
+    width: 30%;
+    left: 18rem;
+  }
+
+  .offer_lorem p {
+    line-height: 100%;
+  }
+
+  .offer_lorem,
+  .offer_btn span {
+    font-size: 1.6rem;
+  }
+}
